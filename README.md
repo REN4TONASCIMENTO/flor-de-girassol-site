@@ -5,9 +5,9 @@
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen?style=for-the-badge" alt="Status do Projeto">
-    <img src="https://img.shields.io/github/license/[SEU_USUARIO]/flor-de-girassol-site?style=for-the-badge" alt="Licença">
-    <img src="https://img.shields.io/github/repo-size/[SEU_USUARIO]/flor-de-girassol-site?style=for-the-badge" alt="Tamanho do Repositório">
-    <img src="https://img.shields.io/github/last-commit/[SEU_USUARIO]/flor-de-girassol-site?style=for-the-badge" alt="Último Commit">
+    <img src="https://img.shields.io/github/license/REN4TONASCIMENTO/flor-de-girassol-site?style=for-the-badge" alt="Licença">
+    <img src="https://img.shields.io/github/repo-size/REN4TONASCIMENTO/flor-de-girassol-site?style=for-the-badge" alt="Tamanho do Repositório">
+    <img src="https://img.shields.io/github/last-commit/REN4TONASCIMENTO/flor-de-girassol-site?style=for-the-badge" alt="Último Commit">
   </p>
 </p>
 
@@ -39,7 +39,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido para ser a vitrine digital e a principal ferramenta de vendas para a marca artesanal **Flor de Girassol AM**. O objetivo era criar um site elegante e profissional que refletisse a identidade da marca, ao mesmo tempo em que oferecesse uma solução de e-commerce otimizada para um negócio local, com finalização de pedidos via WhatsApp. Durante o desenvolvimento, foram aplicados conceitos de **design responsivo**, **manipulação do DOM com JavaScript puro** para interatividade e **gerenciamento de estado no front-end** com `localStorage` para a funcionalidade do carrinho de compras.
+Este projeto foi desenvolvido para ser a vitrine digital e a principal ferramenta de vendas para a marca artesanal **Flor de Girassol**. O objetivo era criar um site elegante e profissional que refletisse a identidade da marca, ao mesmo tempo em que oferecesse uma solução de e-commerce otimizada para um negócio local, com finalização de pedidos via WhatsApp. Durante o desenvolvimento, foram aplicados conceitos de **design responsivo**, **manipulação do DOM com JavaScript puro** para interatividade e **gerenciamento de estado no front-end** com `localStorage` para a funcionalidade do carrinho de compras.
 
 ---
 

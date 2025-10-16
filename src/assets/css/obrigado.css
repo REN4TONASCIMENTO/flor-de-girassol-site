@@ -1,11 +1,11 @@
 /* Estilos página obrigado*/
 
 .thank-you-main {
+    min-height: 70vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 60vh;
-    padding: 4rem 0;
+    align-items: center;
+    padding: 2rem 0;
 }
 
 .thank-you-content {
@@ -15,6 +15,7 @@
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     max-width: 500px;
+    width: 90%;
 }
 
 .thank-you-icon {

@@ -1,0 +1,53 @@
+/*BANNER PRINCIPAL*/
+.hero {
+    background-image: linear-gradient(rgba(2, 48, 71, 0.6), rgba(2, 48, 71, 0.6)), url('../images/sabonete-em-barra1-grande1.png');
+    background-color: var(--color-dark);
+    background-size: cover;
+    background-position: center center;
+    color: var(--color-light);
+    text-align: center;
+    padding: 8rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 1.25rem; /* 20px */
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+/* Estilos dos Botões */
+.btn {
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    font-size: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}

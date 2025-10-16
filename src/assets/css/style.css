@@ -1,0 +1,65 @@
+/*CONFIGURAÇÃO GERAL E VARIÁVEIS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --color-primary: #ffb703;
+    --color-secondary: #fb8500;
+    --color-dark: #023047;
+    --color-light: #FFFFFF;
+    --color-background: #fefae0;
+    --color-footer-bg: #f8f9fa;
+    --font-main: 'Poppins', sans-serif;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-background);
+    color: var(--color-dark);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-secondary);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+ul {
+    list-style: none;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem; /* Aumentamos um pouco para o desktop */
+    color: var(--color-dark);
+    margin-bottom: 3rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px; /* Um container um pouco mais largo para desktop */
+    margin: 0 auto;
+}

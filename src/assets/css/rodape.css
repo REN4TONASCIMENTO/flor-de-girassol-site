@@ -1,0 +1,52 @@
+/*RODAPÉ*/
+.main-footer {
+    background-color: var(--color-footer-bg);
+    padding: 4rem 0 0;
+    border-top: 1px solid #e9ecef;
+    color: #6c757d;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+
+.footer-column p {
+    line-height: 1.8;
+}
+
+.footer-links li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+    color: #6c757d;
+}
+
+.footer-links a:hover {
+    color: var(--color-primary);
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-icons a {
+    font-size: 1.8rem;
+    color: var(--color-dark);
+}
+
+.social-icons a:hover {
+    color: var(--color-primary);
+    transform: scale(1.1);
+}

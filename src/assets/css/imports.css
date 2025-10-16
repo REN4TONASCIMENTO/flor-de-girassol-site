@@ -1,0 +1,140 @@
+@import url("style.css");
+@import url("cabecalho.css");
+@import url("banner.css");
+@import url("depoimento.css");
+@import url("destaque.css");
+@import url("rodape.css");
+@import url("sobre.css");
+@import url("loja.css");
+@import url("contato.css");
+@import url("produto-detalhe.css");
+@import url("carrinho.css");
+
+@media (max-width: 768px) {
+
+    /* AJUSTES GERAIS */
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    /* CABEÇALHO MOBILE */
+    .nav-links {
+        display: none;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 1001;
+        background-color: var(--color-dark);
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .nav-links.active a {
+        color: var(--color-light);
+        padding: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    .nav-links.active a:hover {
+        background-color: var(--color-primary);
+        color: var(--color-dark);
+    }
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .hero { padding: 5rem 0; }
+    .hero-title { font-size: 2.2rem; }
+    .products-grid, .testimonials-grid, .footer-grid, .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    /*Responsividade página loja*/
+    
+    .store-main {
+        padding: 2rem 0;
+    }
+
+    .store-filters {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    /* No mobile, a grade de produtos com 2 colunas*/
+    .store-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    /* Responsividade - página sobre*/
+
+    /*Banner com Título*/
+    .page-title-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    /*Seção História*/
+    .about-main {
+        padding: 3rem 0;
+    }
+
+    .about-story-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-story-text h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-story-text p {
+        text-align: justify;
+    }
+
+    /*Seção Valores*/
+    .our-values {
+        padding: 3rem 0 1rem;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .value-card {
+        padding: 1.5rem 0;
+    }
+
+    /* Responsividade - página detalhes do produto */
+    .product-details-grid {
+        grid-template-columns: 1fr; /* Transforma em 1 coluna */
+        gap: 2rem;
+    }
+
+    .product-title {
+        font-size: 2rem;
+    }
+
+    /* Responsividade - página de contato*/
+    .contact-grid {
+        grid-template-columns: 1fr; /* Transforma em 1 coluna */
+        gap: 3rem;
+    }
+}
+

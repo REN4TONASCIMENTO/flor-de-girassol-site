@@ -1,0 +1,132 @@
+/*SEÇÃO SOBRE A MARCA*/
+.about-brand {
+    padding: 5rem 0;
+    background-color: var(--color-light);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center; 
+    gap: 4rem;
+}
+
+.about-content img {
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.about-text .section-title {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.about-text p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Estilo para o botão com borda */
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid var(--color-dark);
+    color: var(--color-dark);
+    padding: 1rem 2.5rem;
+}
+
+.btn-outline:hover {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+/*Banner com Título da Página*/
+.page-title-banner {
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+    text-align: center;
+    color: var(--color-light);
+}
+
+.page-title-banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/*História*/
+.about-main {
+    padding: 5rem 0;
+    background-color: var(--color-light);
+}
+
+.about-story-content {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+    gap: 4rem;
+}
+
+.about-story-image img {
+    width: 100%;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.about-story-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--color-dark);
+}
+
+.about-story-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/*Seção valores*/
+.our-values {
+    padding: 5rem 0;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+}
+
+.value-card {
+    padding: 2rem;
+}
+
+.value-icon {
+    max-width: 60px;
+    margin: 0 auto 1.5rem;
+}
+
+.value-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-dark);
+}
+
+/*Seção CTA*/
+.cta-section {
+    background-color: var(--color-background);
+    padding: 4rem 0;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}

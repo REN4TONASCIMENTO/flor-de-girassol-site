@@ -1,0 +1,33 @@
+/* Estilos da página loja */
+
+.store-main {
+    padding: 4rem 0;
+}
+
+/*Barra de Filtros*/
+.store-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-count {
+    color: #6c757d;
+}
+
+.orderby {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    background-color: var(--color-light);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+}
+
+/*Grade de Produtos*/
+.store-grid {
+    grid-template-columns: repeat(3, 1fr); /* Quantidade de colunas*/
+}

@@ -1,0 +1,107 @@
+/*CABEÇALHO*/
+.logo {
+    display: flex;        /* Alinha a imagem e o texto lado a lado */
+    align-items: center;  /* Alinha os itens verticalmente ao centro */
+    gap: 0.75rem;         /* Cria um pequeno espaço entre a imagem e o texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.logo img {
+    height: 40px; /* Define uma altura fixa para a imagem do logo */
+    width: auto;  /* A largura se ajustará automaticamente */
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 1.2rem; /* Ajuste o tamanho da fonte se necessário */
+    font-weight: 700;
+    color: var(--color-dark);
+}
+
+.main-header {
+    background-color: var(--color-light);
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Navegação visível por padrão */
+.nav-links {
+    display: flex; /* Coloca os links lado a lado */
+    align-items: center;
+    gap: 2.5rem; /* Espaço entre os links */
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: var(--color-dark);
+    position: relative; /* Para o efeito de sublinhado */
+    padding-bottom: 5px;
+}
+
+/* Efeito de sublinhado animado no hover */
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-primary);
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/*Ícone do Menu Hambúrguer escondido por padrão */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none; 
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-toggle .bar {
+    background-color: var(--color-dark);
+    height: 3px;
+    width: 28px;                       
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-icons span {
+    font-size: 1.8rem;
+}
+
+.header-icons a {
+    position: relative; /* Necessário para posicionar o contador */
+    text-decoration: none;
+}
+
+.cart-item-count {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+}

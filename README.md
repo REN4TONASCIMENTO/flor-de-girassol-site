@@ -81,7 +81,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/](https://github.com/)REN4TONASCIMENTO/flor-de-girassol-site.git
+    git clone https://github.com/REN4TONASCIMENTO/flor-de-girassol-site.git
     ```
 
 2.  **Acesse a pasta do projeto:**

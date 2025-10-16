@@ -1,0 +1,35 @@
+/* Estilos página obrigado*/
+
+.thank-you-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding: 4rem 0;
+}
+
+.thank-you-content {
+    text-align: center;
+    background-color: var(--color-light);
+    padding: 3rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    max-width: 500px;
+}
+
+.thank-you-icon {
+    color: #28a745; /* Verde de sucesso */
+    margin-bottom: 1.5rem;
+}
+
+.thank-you-content h1 {
+    font-size: 2.5rem;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+
+.thank-you-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}

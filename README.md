@@ -16,7 +16,7 @@
 ### ✨ Demonstração
 
 <p align="center">
-  <a href="https://flor-de-girassol-site.vercel.app/)"><strong>Acesse a Demonstração Ao Vivo »</strong></a>
+  <a href="https://flor-de-girassol-site.vercel.app/"><strong>Acesse a Demonstração Ao Vivo »</strong></a>
 </p>
 
 <p align="center">

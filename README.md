@@ -5,9 +5,9 @@
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen?style=for-the-badge" alt="Status do Projeto">
-    <img src="https://img.shields.io/github/license/[SEU_USUARIO]/flor-de-girassol-site?style=for-the-badge" alt="Licença">
-    <img src="https://img.shields.io/github/repo-size/[SEU_USUARIO]/flor-de-girassol-site?style=for-the-badge" alt="Tamanho do Repositório">
-    <img src="https://img.shields.io/github/last-commit/[SEU_USUARIO]/flor-de-girassol-site?style=for-the-badge" alt="Último Commit">
+    <img src="https://img.shields.io/github/license/REN4TONASCIMENTO/flor-de-girassol-site?style=for-the-badge" alt="Licença">
+    <img src="https://img.shields.io/github/repo-size/REN4TONASCIMENTO/flor-de-girassol-site?style=for-the-badge" alt="Tamanho do Repositório">
+    <img src="https://img.shields.io/github/last-commit/REN4TONASCIMENTO/flor-de-girassol-site?style=for-the-badge" alt="Último Commit">
   </p>
 </p>
 
@@ -16,7 +16,7 @@
 ### ✨ Demonstração
 
 <p align="center">
-  <a href="flor-de-girassol-site.vercel.app"><strong>Acesse a Demonstração Ao Vivo »</strong></a>
+  <a href="https://flor-de-girassol-site.vercel.app/"><strong>Acesse a Demonstração Ao Vivo »</strong></a>
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido para ser a vitrine digital e a principal ferramenta de vendas para a marca artesanal **Flor de Girassol AM**. O objetivo era criar um site elegante e profissional que refletisse a identidade da marca, ao mesmo tempo em que oferecesse uma solução de e-commerce otimizada para um negócio local, com finalização de pedidos via WhatsApp. Durante o desenvolvimento, foram aplicados conceitos de **design responsivo**, **manipulação do DOM com JavaScript puro** para interatividade e **gerenciamento de estado no front-end** com `localStorage` para a funcionalidade do carrinho de compras.
+Este projeto foi desenvolvido para ser a vitrine digital e a principal ferramenta de vendas para a marca artesanal **Flor de Girassol**. O objetivo era criar um site elegante e profissional que refletisse a identidade da marca, ao mesmo tempo em que oferecesse uma solução de e-commerce otimizada para um negócio local, com finalização de pedidos via WhatsApp. Durante o desenvolvimento, foram aplicados conceitos de **design responsivo**, **manipulação do DOM com JavaScript puro** para interatividade e **gerenciamento de estado no front-end** com `localStorage` para a funcionalidade do carrinho de compras.
 
 ---
 
@@ -81,7 +81,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/](https://github.com/)REN4TONASCIMENTO/flor-de-girassol-site.git
+    git clone https://github.com/REN4TONASCIMENTO/flor-de-girassol-site.git
     ```
 
 2.  **Acesse a pasta do projeto:**
@@ -123,5 +123,5 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 Feito por Renato Nascimento!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Renato-Nascimento-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/-renatonascimento/)](https://www.linkedin.com/in/-renatonascimento/)
-[![Gmail Badge](https://img.shields.io/badge/-renatonascimento2001@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:renatonascimento2001@gmail.com)](mailto:renatonascimento2001@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-renatonascimento/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:renatonascimento2001@gmail.com)
